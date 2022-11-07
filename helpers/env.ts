@@ -6,7 +6,7 @@ export const getEnv = (): 'dev' | 'production' | 'local' => {
   if (envVar === 'local') {
     return envVar
   }
-  return 'dev'
+  return 'production'
 }
 
 export const tagStr = (): string | null => {

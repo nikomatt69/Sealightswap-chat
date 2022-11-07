@@ -16,10 +16,26 @@ class AppDocument extends Document {
     return (
       <Html className="h-full bg-gray-100">
         <Head>
-          <meta name="description" content="Chat via XMTP" />
+          <meta name="description" content="SeaLightSwap Chat" />
           <link rel="icon" href="/favicon.ico" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
-            href="https://fonts.googleapis.com/css?family=Inter:400,500,600,700|Inconsolata:400,600,700&display=swap"
+            rel="shortcut icon"
+            type="image/png"
+            href="%PUBLIC_URL%/favicon.png"
+          />
+          <link
+            rel="apple-touch-icon"
+            sizes="192x192"
+            href="%PUBLIC_URL%/xmtp-icon.png"
+          />
+          <link
+            rel="apple-touch-icon"
+            sizes="512x512"
+            href="%PUBLIC_URL%/xmtp-icon.png"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap"
             rel="stylesheet"
           />
         </Head>
